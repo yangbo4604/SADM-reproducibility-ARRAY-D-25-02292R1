@@ -1,0 +1,414 @@
+{"pid":7,"type":"jupyter","level":40,"msg":"  warn(","time":"2026-04-08T14:20:18.999Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"[W 2026-04-08 14:20:18.999 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.","time":"2026-04-08T14:20:19.001Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.","time":"2026-04-08T14:20:19.001Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/etc/jupyter/jupyter_server_config.json","time":"2026-04-08T14:20:19.464Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/google.colab._serverextension.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/ipyparallel.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/jupyter_server_terminals.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/jupytext.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/nbclassic.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/notebook_shim.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.d/panel-client-jupyter.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_server_config.json","time":"2026-04-08T14:20:19.465Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/etc/jupyter/jupyter_server_config.d/google.colab.json","time":"2026-04-08T14:20:19.471Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/etc/jupyter/jupyter_server_config.d/nbclassic.json","time":"2026-04-08T14:20:19.471Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/etc/jupyter/jupyter_server_config.json","time":"2026-04-08T14:20:19.471Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/root/.local/etc/jupyter/jupyter_server_config.json","time":"2026-04-08T14:20:19.473Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/root/.jupyter/jupyter_server_config.json","time":"2026-04-08T14:20:19.473Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"/usr/local/lib/python3.12/dist-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://events.jupyter.org/jupyter_server/contents_service/v1","time":"2026-04-08T14:20:19.477Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  validate_schema(_schema)","time":"2026-04-08T14:20:19.477Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"/usr/local/lib/python3.12/dist-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://events.jupyter.org/jupyter_server/gateway_client/v1","time":"2026-04-08T14:20:19.479Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  validate_schema(_schema)","time":"2026-04-08T14:20:19.479Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"/usr/local/lib/python3.12/dist-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://events.jupyter.org/jupyter_server/kernel_actions/v1","time":"2026-04-08T14:20:19.482Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  validate_schema(_schema)","time":"2026-04-08T14:20:19.482Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.","time":"2026-04-08T14:20:19.527Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Extension package jupyterlab_jupytext took 0.2616s to import","time":"2026-04-08T14:20:19.798Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.","time":"2026-04-08T14:20:19.810Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Extension package panel.io.jupyter_server_extension took 1.0566s to import","time":"2026-04-08T14:20:20.868Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"google.colab ","time":"2026-04-08T14:20:20.869Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"google.colab._serverextension ","time":"2026-04-08T14:20:20.869Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"ipyparallel ","time":"2026-04-08T14:20:20.869Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"jupyter_server_terminals ","time":"2026-04-08T14:20:20.875Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"jupyterlab_jupytext ","time":"2026-04-08T14:20:20.875Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"nbclassic ","time":"2026-04-08T14:20:20.881Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret","time":"2026-04-08T14:20:20.884Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/root/.jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/etc/jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_notebook_config.d/ipyparallel.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_notebook_config.d/jupytext.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_notebook_config.d/panel-client-jupyter.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/local/etc/jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.886Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/usr/etc/jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.888Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/root/.local/etc/jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.888Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    \t/root/.jupyter/jupyter_notebook_config.json","time":"2026-04-08T14:20:20.888Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"notebook_shim ","time":"2026-04-08T14:20:20.889Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"panel.io.jupyter_server_extension ","time":"2026-04-08T14:20:20.889Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Customizing authentication via ServerApp.login_handler_class=<class 'google.colab._login_handler.ColabLoginHandler'> is deprecated in Jupyter Server 2.0. Use ServerApp.identity_provider_class. Falling back on legacy authentication.","time":"2026-04-08T14:20:21.043Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"notebook_shim ","time":"2026-04-08T14:20:21.085Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"google.colab ","time":"2026-04-08T14:20:21.086Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"google.colab server extension initialized on gpu-t4-hm-kkb-ase1c2-38sokwefwmiye.","time":"2026-04-08T14:20:21.091Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"google.colab._serverextension ","time":"2026-04-08T14:20:21.091Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Loading IPython parallel extension","time":"2026-04-08T14:20:21.095Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"ipyparallel ","time":"2026-04-08T14:20:21.095Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"jupyter_server_terminals ","time":"2026-04-08T14:20:21.097Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"[Jupytext Server Extension] Deriving an AsyncTextFileContentsManager from AsyncLargeFileManager","time":"2026-04-08T14:20:21.097Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"jupyterlab_jupytext ","time":"2026-04-08T14:20:21.098Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"nbclassic ","time":"2026-04-08T14:20:21.112Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"panel.io.jupyter_server_extension ","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Serving notebooks from local directory: /","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Jupyter Server 2.14.0 is running at:","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"http://172.28.0.12:9000/","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"    http://127.0.0.1:9000/","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).","time":"2026-04-08T14:20:21.113Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - Debugger warning: It seems that frozen modules are being used, which may","time":"2026-04-08T14:22:16.108Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off","time":"2026-04-08T14:22:16.108Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - to python to disable frozen modules.","time":"2026-04-08T14:22:16.108Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.","time":"2026-04-08T14:22:16.108Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"/usr/local/lib/python3.12/dist-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://events.jupyter.org/jupyter_server/kernel_actions/v1","time":"2026-04-08T14:22:38.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  validate_schema(_schema)","time":"2026-04-08T14:22:38.670Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Kernel started: 3e7044b6-f1c2-4eb7-8db8-c48414f26e66","time":"2026-04-08T14:22:38.673Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - Debugger warning: It seems that frozen modules are being used, which may","time":"2026-04-08T14:22:39.020Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off","time":"2026-04-08T14:22:39.020Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - to python to disable frozen modules.","time":"2026-04-08T14:22:39.021Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.","time":"2026-04-08T14:22:39.021Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T14:22:39.934Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).","time":"2026-04-08T14:22:39.937Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    Setting websocket_ping_timeout=30000","time":"2026-04-08T14:22:39.937Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:13:20.158Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:19:23.614Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:26:30.750Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:34:07.626Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-2377' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35099d3860>","time":"2026-04-08T15:34:07.636Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:41:12.793Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T15:41:12.800Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:48:15.617Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T15:48:15.624Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T15:55:21.143Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:02:26.154Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T16:02:26.161Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:09:30.152Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:16:34.222Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:23:37.673Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-3858' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T16:23:37.681Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T16:23:37.682Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T16:23:37.682Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T16:23:37.682Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T16:23:37.682Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T16:23:37.682Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:30:40.897Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T16:30:40.904Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35083c2f00>","time":"2026-04-08T16:30:40.905Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:37:43.118Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-4280' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T16:37:43.127Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:44:49.164Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:50:54.185Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T16:57:58.366Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:05:02.770Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:12:06.530Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T17:12:06.537Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:19:11.077Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:26:14.581Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-5728' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T17:26:14.589Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35099d1040>","time":"2026-04-08T17:26:14.590Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:33:18.315Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:40:27.291Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:47:31.571Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T17:55:03.489Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:02:07.577Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:09:34.566Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-7012' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T18:09:34.574Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:16:37.785Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:23:41.812Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:30:44.042Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:37:48.144Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T18:37:48.152Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-7858' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T18:37:48.152Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T18:37:48.153Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:43:51.304Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:50:56.096Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T18:50:56.103Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T18:58:22.198Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:05:26.902Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:12:30.807Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T19:12:30.815Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-8895' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T19:12:30.816Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:19:35.222Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T19:19:35.230Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35083c0a10>","time":"2026-04-08T19:19:35.230Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:26:38.737Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T19:26:38.744Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:33:43.081Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T19:33:43.090Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-9529' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T19:33:43.090Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350843fd70>","time":"2026-04-08T19:33:43.091Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:40:47.665Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:46:50.606Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T19:46:50.613Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350843c050>","time":"2026-04-08T19:46:50.614Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T19:54:04.571Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:01:09.068Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-10351' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T20:01:09.076Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T20:01:09.077Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T20:01:09.077Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T20:01:09.077Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T20:01:09.077Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a3508417f80>","time":"2026-04-08T20:01:09.077Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:08:12.274Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-10563' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350956d5b0>","time":"2026-04-08T20:08:12.283Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:15:50.192Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:22:53.976Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:29:58.140Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:37:02.018Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:44:06.772Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:51:09.108Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T20:51:09.115Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350958f1a0>","time":"2026-04-08T20:51:09.116Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T20:58:13.692Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:05:16.633Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:12:19.712Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T21:12:19.720Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350843fad0>","time":"2026-04-08T21:12:19.721Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:19:23.276Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:26:26.924Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:33:31.690Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:40:35.753Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:47:39.702Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T21:54:43.021Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-13740' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T21:54:43.029Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:01:46.305Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:07:50.819Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:14:55.509Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:21:59.507Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:29:31.645Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:36:35.374Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T22:36:35.381Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:43:39.365Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-15201' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T22:43:39.373Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:50:43.074Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T22:57:07.292Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T22:57:07.299Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350958c950>","time":"2026-04-08T22:57:07.300Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:04:11.526Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:11:15.700Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T23:11:15.707Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:18:19.662Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-16236' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35083c2f00>","time":"2026-04-08T23:18:19.670Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:25:23.742Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:32:52.887Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-16669' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35099d1010>","time":"2026-04-08T23:32:52.896Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:39:58.255Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-08T23:39:58.263Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350996e900>","time":"2026-04-08T23:39:58.264Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:47:01.495Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-08T23:54:04.781Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:01:09.507Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:08:13.064Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-09T00:08:13.072Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35083c13d0>","time":"2026-04-09T00:08:13.073Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:15:19.034Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:22:23.175Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-18147' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-09T00:22:23.183Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:29:38.388Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:36:46.289Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-09T00:36:46.296Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:42:50.606Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-18759' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-09T00:42:50.615Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a35084734d0>","time":"2026-04-09T00:42:50.616Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:50:16.052Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T00:57:19.008Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-09T00:57:19.015Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T01:04:22.169Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-19402' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-09T01:04:22.177Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T01:36:27.797Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T01:43:33.498Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T01:50:38.119Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-20855' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-09T01:50:38.127Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350956c1a0>","time":"2026-04-09T01:50:38.128Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T01:57:42.372Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Task exception was never retrieved","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"future: <Task finished name='Task-21068' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.12/dist-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1113, in wrapper","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    await fut","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.iostream.StreamClosedError: Stream is closed","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"During handling of the above exception, another exception occurred:","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Traceback (most recent call last):","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"  File \"/usr/local/lib/python3.12/dist-packages/tornado/websocket.py\", line 1115, in wrapper","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"    raise WebSocketClosedError()","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"tornado.websocket.WebSocketClosedError","time":"2026-04-09T01:57:42.381Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T02:04:47.415Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"","time":"2026-04-09T02:04:47.422Z","v":0}
+{"pid":7,"type":"jupyter","level":40,"msg":"Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7a350958cfb0>","time":"2026-04-09T02:04:47.423Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T02:11:24.548Z","v":0}
+{"pid":7,"type":"jupyter","level":30,"msg":"Connecting to kernel 3e7044b6-f1c2-4eb7-8db8-c48414f26e66.","time":"2026-04-09T02:18:30.448Z","v":0}
